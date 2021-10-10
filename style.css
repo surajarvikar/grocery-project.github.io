@@ -1,0 +1,1496 @@
+*{margin: 0;
+padding: 0;
+}
+body{
+    color: whitesmoke;
+    background: transparent;
+}
+.container{
+    width: 100%;;
+    background-image: url(hii.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: max-content;
+
+}
+.heading h1 {
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    color: white;
+    padding: 150px;
+    top: 0px;
+    font-size: 70px;
+    letter-spacing: 15px;
+    
+}
+
+/* navbar portion */
+.navbar{
+    background-color: green;
+    top: 0px;
+    border-radius: none;
+    outline: none;
+}
+.navbar ul {position: relative;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+    text-align: center;
+    height: 55px;
+    left: 70px;
+    top: 3px;
+    border: none;
+    outline: none;
+
+    
+}
+.navbar ul li{
+    position: relative;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 10px;
+    text-align: center;
+    left: 10px;
+
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    margin-left: 30px;
+    padding: 10px 20px;
+    font-size: 25px;
+    text-align: center;
+    
+}
+.navbar ul li a:hover{
+    background-color: gray;
+}
+
+/* search portion */
+.search{position: relative;
+    margin-top: 8px;
+    border: none;
+    outline: none;
+    left: 20px;
+}
+.search input{position: relative;
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+.search button{
+    position: relative;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: green;
+}
+.search button i{
+    position: relative;
+    right: 35px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    top: 4px;
+
+}
+/* vegetables portion all images */
+.all{
+    width: 100%;
+    height: 270px;
+    color: black;
+}
+.suball{position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: 250px;
+    top: 50px;
+
+}
+/* div1 portin */
+.div1{position: relative;
+    left: 50px;
+    width: max-content;
+    height: max-content;
+    border: 5px solid green;
+    border-radius: 0 0 50px 50px;
+
+}
+.div1 img{position: relative;
+     border: 5px solid white;
+     width: 200px;
+     height: 200px;
+     border-radius: 0 0 50px 50px;
+}
+.div1 h3{
+    position: relative;
+    left: 55px;
+    bottom: 5px;
+}
+
+/* div2 portion */
+.div2{position: relative;
+    border: 5px solid green;
+    border-radius: 0 0 50px 50px;
+    left: 50px;
+    width: max-content;
+    height: max-content;
+
+}
+.div2 img{
+    position: relative;
+     width: 200px;
+     height: 200px;
+     border: 5px solid white;
+     border-radius: 0 0 50px 50px;
+}
+.suball .div2 h3{
+    position: relative;
+    bottom: 5px;
+    margin-left: 65px;
+}
+/* div 3 portion */
+.div3{
+    position: relative;
+    border: 5px solid green;
+    border-radius: 0 0 50px 50px;
+    left: 50px;
+    width: max-content;
+    height: max-content;
+}
+.div3 img{
+    position: relative;
+    border: 5px solid white;
+     width: 200px;
+     height: 200px;
+     border-radius: 0 0 50px 50px;
+}
+.div3 h3{
+    position: relative;
+    left: 45px;  
+    bottom: 5px; 
+}
+
+/* div4 portion */
+.div4{
+    position: relative;
+    left: 50px;
+    width: max-content;
+    height: max-content;
+    border: 5px solid green;
+    border-radius: 0 0 50px 50px;
+}    
+.div4 img{
+    position: relative;
+     border: 5px solid white;
+     width: 200px;
+     height: 200px;
+     border-radius: 0 0 50px 50px;
+}
+.suball .div4 h3{
+    position: relative;
+    left: 85px;
+    bottom: 5px;
+    
+}
+.deals{
+    width: 100%;
+    background-image: url(best.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: max-content;
+    margin-top: 30px;
+    
+}
+.subdeals h1{
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    color: white;
+    padding: 40px;
+    top: 0px;
+    font-size: 70px;
+    letter-spacing: 15px;
+
+}
+.cdiv{
+
+    width: 100%;
+    height: 270px;
+    color: black;
+
+}
+.subdiv{
+    position: relative;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    left: 50px;
+    top: 45px;
+    grid-gap:50px;
+
+}
+.cdiv1{
+    position: relative;
+    background: linear-gradient(120deg,black ,gray,black);
+
+}
+.cdiv1 p{
+    position: relative;
+    top: 40px;
+    line-height: 25px;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.cdiv1 button{
+    position: relative;
+    top: 40px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+.cdiv2{
+    position: relative;
+    background: linear-gradient(120deg,black ,gray,black);
+}
+.cdiv2 p{
+    position: relative;
+    top: 40px;
+    line-height: 25px;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+}
+.cdiv2 button{
+    position: relative;
+    top: 40px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 2px solid white;
+    outline: none;
+}
+.cdiv3{position: relative;
+    background: linear-gradient(120deg,black ,gray,black);
+}
+.cdiv3 p{
+    position: relative;
+    top: 40px;
+    line-height: 25px;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+}
+.cdiv3 button{
+    position: relative;
+    top: 40px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 2px solid white;
+    outline: none;
+    
+}
+
+/* vegetables */
+
+.veg{
+    width: 100%;
+    background-image: url(first.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: max-content;
+    margin-top: 30px;
+    
+}
+.veg h1{
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    color: white;
+    padding: 40px;
+    top: 0px;
+    font-size: 70px;
+    letter-spacing: 15px;
+
+}
+
+/* vegetables sub portion */
+.cveg{
+    position: relative;
+    width: 100%;
+    height: 330px;
+    color: black;    
+}
+.csubveg{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: max-content;
+    height: max-content;
+    top: 50px;
+    grid-gap:80px;
+
+}
+/* vegetables sub portion */
+/* div1 portin */
+.div1{position: relative;
+    left: 50px;
+    width: max-content;
+    height: max-content;
+    border: 5px solid green;
+    border-radius: 0 0 50px 50px;
+
+}
+.div1 img{position: relative;
+     border: 5px solid white;
+     width: 200px;
+     height: 150px;
+     border-radius: 0 0 50px 50px;
+}
+.div1 h3{
+    position: relative;
+    left: 55px;
+    bottom: 5px;
+}
+
+.div1 p{
+    position: relative;
+    text-align: center;
+}
+.div1 button{
+    position: relative;
+    left: 65px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: green;
+    border: none;
+    outline: none;
+    color: white;
+}
+.div1 button:hover{
+    background-color: black;
+}
+/* div2 portion */
+.di2{position: relative;
+    border: 5px solid green;
+    border-radius: 0 0 50px 50px;
+    left: 50px;
+    width: max-content;
+    height: max-content;
+
+}
+.div2 img{
+    position: relative;
+     width: 200px;
+     height: 150px;
+     border: 5px solid white;
+     border-radius: 0 0 50px 50px;
+}
+.div2 h3{
+    position: relative;
+    left:50px;
+    bottom: 5px;
+}
+.div2 p{
+    position: relative;
+    text-align: center;
+}
+.div2 button{
+    position: relative;
+    left: 65px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: green;
+    border: none;
+    outline: none;
+    color: white;
+}
+.div2 button:hover{
+    background-color: black;
+}
+
+.div3{
+    position: relative;
+    border: 5px solid green;
+    border-radius: 0 0 50px 50px;
+    left: 50px;
+    width: max-content;
+    height: max-content;
+}
+.div3 img{
+    position: relative;
+    border: 5px solid white;
+     width: 200px;
+     height: 150px;
+     border-radius: 0 0 50px 50px;
+}
+.div h3{
+    position: relative;
+    left: 45px;  
+    bottom: 5px; 
+}
+.div3 p{
+    position: relative;
+    text-align: center;
+}
+.div3 button{
+    position: relative;
+    left: 65px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: green;
+    border: none;
+    outline: none;
+    color: white;
+}
+.div3 button:hover{
+    background-color: black;
+}
+
+/* div4 portion */
+.div4{
+    position: relative;
+    left: 50px;
+    width: max-content;
+    height: max-content;
+    border: 5px solid green;
+    border-radius: 0 0 50px 50px;
+}    
+.div4 img{
+    position: relative;
+     border: 5px solid white;
+     width: 200px;
+     height: 150px;
+     border-radius: 0 0 50px 50px;
+}
+.div4 h3{
+    position: relative;
+    left: 50px;
+    bottom: 5px;
+    
+}
+.div4 p{
+    position: relative;
+    text-align: center;
+}
+.div4 button{
+    position: relative;
+    left: 65px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: green;
+    border: none;
+    outline: none;
+    color: white;
+}
+.div4 button:hover{
+    background-color: black;
+}
+
+
+/* 2nd row portion of vegetables  */
+/* vegetables portion */
+.cveg{
+    position: relative;
+    width: 100%;
+    height: 330px;
+    color: black;    
+}
+.csubveg{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: max-content;
+    height: max-content;
+    top: 50px;
+    grid-gap:80px;
+
+}
+/* vegetables sub portion */
+/* div1 portin */
+.div1{position: relative;
+    left: 50px;
+    width: max-content;
+    height: max-content;
+    border: 5px solid green;
+    border-radius: 0 0 50px 50px;
+
+}
+.div1 img{position: relative;
+     border: 5px solid white;
+     width: 200px;
+     height: 150px;
+     border-radius: 0 0 50px 50px;
+}
+.div1 h3{
+    position: relative;
+    left: 55px;
+    bottom: 5px;
+}
+
+.div1 p{
+    position: relative;
+    text-align: center;
+}
+.div1 button{
+    position: relative;
+    left: 65px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: green;
+    border: none;
+    outline: none;
+    color: white;
+}
+.div1 button:hover{
+    background-color: black;
+}
+/* div2 portion */
+.di2{position: relative;
+    border: 5px solid green;
+    border-radius: 0 0 50px 50px;
+    left: 50px;
+    width: max-content;
+    height: max-content;
+
+}
+.div2 img{
+    position: relative;
+     width: 200px;
+     height: 150px;
+     border: 5px solid white;
+     border-radius: 0 0 50px 50px;
+}
+.div2 h3{
+    position: relative;
+    left:50px;
+    bottom: 5px;
+}
+.div2 p{
+    position: relative;
+    text-align: center;
+}
+.div2 button{
+    position: relative;
+    left: 65px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: green;
+    border: none;
+    outline: none;
+    color: white;
+}
+.div2 button:hover{
+    background-color: black;
+}
+
+.div3{
+    position: relative;
+    border: 5px solid green;
+    border-radius: 0 0 50px 50px;
+    left: 50px;
+    width: max-content;
+    height: max-content;
+}
+.div3 img{
+    position: relative;
+    border: 5px solid white;
+     width: 200px;
+     height: 150px;
+     border-radius: 0 0 50px 50px;
+}
+.div h3{
+    position: relative;
+    left: 45px;  
+    bottom: 5px; 
+}
+.div3 p{
+    position: relative;
+    text-align: center;
+}
+.div3 button{
+    position: relative;
+    left: 65px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: green;
+    border: none;
+    outline: none;
+    color: white;
+}
+.div3 button:hover{
+    background-color: black;
+}
+
+/* div4 portion */
+.div4{
+    position: relative;
+    left: 50px;
+    width: max-content;
+    height: max-content;
+    border: 5px solid green;
+    border-radius: 0 0 50px 50px;
+}    
+.div4 img{
+    position: relative;
+     border: 5px solid white;
+     width: 200px;
+     height: 150px;
+     border-radius: 0 0 50px 50px;
+}
+.div4 h3{
+    position: relative;
+    left: 50px;
+    bottom: 5px;
+    
+}
+.div4 p{
+    position: relative;
+    text-align: center;
+}
+.div4 button{
+    position: relative;
+    left: 65px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: green;
+    border: none;
+    outline: none;
+    color: white;
+}
+.div4 button:hover{
+    background-color: black;
+}
+
+/* fruit portion */
+
+.fruit{
+    width: 100%;
+    background-image: url(second.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: max-content;
+    margin-top: 30px;
+    
+}
+.hello h1{
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    color: white;
+    padding: 40px;
+    top: 0px;
+    font-size: 70px;
+    letter-spacing: 15px;
+}
+
+/* sub fruit portion */
+.cfruit{
+    position: relative;
+    width: 100%;
+    height: 330px;
+    color: black;
+}
+.csubfruit{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: max-content;
+    height: max-content;
+    top: 50px;
+    grid-gap:80px;
+
+}
+/* div1 portin */
+.div1{position: relative;
+    left: 50px;
+    width: max-content;
+    height: max-content;
+    border: 5px solid green;
+    border-radius: 0 0 50px 50px;
+
+}
+.div1 img{position: relative;
+     border: 5px solid white;
+     width: 200px;
+     height: 150px;
+     border-radius: 0 0 50px 50px;
+}
+.div1 h3{
+    position: relative;
+    left: 55px;
+    bottom: 5px;
+}
+
+.div1 p{
+    position: relative;
+    text-align: center;
+}
+.div1 button{
+    position: relative;
+    left: 65px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: green;
+    border: none;
+    outline: none;
+    color: white;
+}
+.div1 button:hover{
+    background-color: black;
+}
+/* div2 portion */
+.di2{position: relative;
+    border: 5px solid green;
+    border-radius: 0 0 50px 50px;
+    left: 50px;
+    width: max-content;
+    height: max-content;
+
+}
+.div2 img{
+    position: relative;
+     width: 200px;
+     height: 150px;
+     border: 5px solid white;
+     border-radius: 0 0 50px 50px;
+     font-size: 10px;
+}
+.div2 h3{
+    position: relative;
+    left: 10px;
+    bottom: 5px;
+    
+}
+.div2 p{
+    position: relative;
+    text-align: center;
+}
+.div2 button{
+    position: relative;
+    left: 65px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: green;
+    border: none;
+    outline: none;
+    color: white;
+}
+.div2 button:hover{
+    background-color: black;
+}
+
+.div3{
+    position: relative;
+    border: 5px solid green;
+    border-radius: 0 0 50px 50px;
+    left: 50px;
+    width: max-content;
+    height: max-content;
+}
+.div3 img{
+    position: relative;
+    border: 5px solid white;
+     width: 200px;
+     height: 150px;
+     border-radius: 0 0 50px 50px;
+}
+.div h3{
+    position: relative;
+    left: 45px;  
+    bottom: 5px; 
+}
+.div3 p{
+    position: relative;
+    text-align: center;
+}
+.div3 button{
+    position: relative;
+    left: 65px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: green;
+    border: none;
+    outline: none;
+    color: white;
+}
+.div3 button:hover{
+    background-color: black;
+}
+
+/* div4 portion */
+.div4{
+    position: relative;
+    left: 50px;
+    width: max-content;
+    height: max-content;
+    border: 5px solid green;
+    border-radius: 0 0 50px 50px;
+}    
+.div4 img{
+    position: relative;
+     border: 5px solid white;
+     width: 200px;
+     height: 150px;
+     border-radius: 0 0 50px 50px;
+}
+.div4 h3{
+    position: relative;
+    left: 50px;
+    bottom: 5px;
+    
+}
+.div4 p{
+    position: relative;
+    text-align: center;
+}
+.div4 button{
+    position: relative;
+    left: 65px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: green;
+    border: none;
+    outline: none;
+    color: white;
+}
+.div4 button:hover{
+    background-color: black;
+}
+
+/* 2nd row of fruit */
+
+.dfruit{
+    position: relative;
+    width: 100%;
+    height: 330px;
+    color: black;
+}
+.dsubfruit{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: max-content;
+    height: max-content;
+    top: 50px;
+    grid-gap:80px;
+
+}
+/* div1 portin */
+.div1{position: relative;
+    left: 50px;
+    width: max-content;
+    height: max-content;
+    border: 5px solid green;
+    border-radius: 0 0 50px 50px;
+
+}
+.div1 img{position: relative;
+     border: 5px solid white;
+     width: 200px;
+     height: 150px;
+     border-radius: 0 0 50px 50px;
+}
+.div1 h3{
+    position: relative;
+    left: 55px;
+    bottom: 5px;
+}
+
+.div1 p{
+    position: relative;
+    text-align: center;
+}
+.div1 button{
+    position: relative;
+    left: 65px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: green;
+    border: none;
+    outline: none;
+    color: white;
+}
+.div1 button:hover{
+    background-color: black;
+}
+/* div2 portion */
+.di2{position: relative;
+    border: 5px solid green;
+    border-radius: 0 0 50px 50px;
+    left: 50px;
+    width: max-content;
+    height: max-content;
+
+}
+.div2 img{
+    position: relative;
+     width: 200px;
+     height: 150px;
+     border: 5px solid white;
+     border-radius: 0 0 50px 50px;
+     font-size: 10px;
+}
+.div2 h3{
+    position: relative;
+    left: 10px;
+    bottom: 5px;
+    
+}
+.div2 p{
+    position: relative;
+    text-align: center;
+}
+.div2 button{
+    position: relative;
+    left: 65px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: green;
+    border: none;
+    outline: none;
+    color: white;
+}
+.div2 button:hover{
+    background-color: black;
+}
+
+.div3{
+    position: relative;
+    border: 5px solid green;
+    border-radius: 0 0 50px 50px;
+    left: 50px;
+    width: max-content;
+    height: max-content;
+}
+.div3 img{
+    position: relative;
+    border: 5px solid white;
+     width: 200px;
+     height: 150px;
+     border-radius: 0 0 50px 50px;
+}
+.div h3{
+    position: relative;
+    left: 45px;  
+    bottom: 5px; 
+}
+.div3 p{
+    position: relative;
+    text-align: center;
+}
+.div3 button{
+    position: relative;
+    left: 65px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: green;
+    border: none;
+    outline: none;
+    color: white;
+}
+.div3 button:hover{
+    background-color: black;
+}
+
+/* div4 portion */
+.div4{
+    position: relative;
+    left: 50px;
+    width: max-content;
+    height: max-content;
+    border: 5px solid green;
+    border-radius: 0 0 50px 50px;
+}    
+.div4 img{
+    position: relative;
+     border: 5px solid white;
+     width: 200px;
+     height: 150px;
+     border-radius: 0 0 50px 50px;
+}
+.div4 h3{
+    position: relative;
+    left: 50px;
+    bottom: 5px;
+    
+}
+.div4 p{
+    position: relative;
+    text-align: center;
+}
+.div4 button{
+    position: relative;
+    left: 65px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: green;
+    border: none;
+    outline: none;
+    color: white;
+}
+.div4 button:hover{
+    background-color: black;
+}
+
+
+
+/* meat portion */
+
+.meat{
+    width: 100%;
+    background-image: url(third.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: max-content;
+    margin-top: 30px;
+    
+}
+.hello h1{
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    color: white;
+    padding: 40px;
+    top: 0px;
+    font-size: 70px;
+    letter-spacing: 15px;
+}
+
+/* sub fruit portion */
+.cmeat{
+    position: relative;
+    width: 100%;
+    height: 330px;
+    color: black;
+}
+.csubmeat{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: max-content;
+    height: max-content;
+    top: 50px;
+    grid-gap:80px;
+
+}
+/* div1 portin */
+.div1{
+    position: relative;
+    left: 50px;
+    width: max-content;
+    height: max-content;
+    border: 5px solid green;
+    border-radius: 0 0 50px 50px;
+
+}
+.div1 img{position: relative;
+     border: 5px solid white;
+     width: 200px;
+     height: 150px;
+     border-radius: 0 0 50px 50px;
+}
+.div1 h3{
+    position: relative;
+    left: 55px;
+    bottom: 5px;
+}
+
+.div1 p{
+    position: relative;
+    text-align: center;
+}
+.div1 button{
+    position: relative;
+    left: 65px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: green;
+    border: none;
+    outline: none;
+    color: white;
+}
+.div1 button:hover{
+    background-color: black;
+}
+/* div2 portion */
+.di2{position: relative;
+    border: 5px solid green;
+    border-radius: 0 0 50px 50px;
+    left: 50px;
+    width: max-content;
+    height: max-content;
+
+}
+.div2 img{
+    position: relative;
+     width: 200px;
+     height: 150px;
+     border: 5px solid white;
+     border-radius: 0 0 50px 50px;
+     font-size: 10px;
+}
+.div2 h3{
+    position: relative;
+    left: 10px;
+    bottom: 5px;
+    
+}
+.div2 p{
+    position: relative;
+    text-align: center;
+}
+.div2 button{
+    position: relative;
+    left: 65px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: green;
+    border: none;
+    outline: none;
+    color: white;
+}
+.div2 button:hover{
+    background-color: black;
+}
+
+.div3{
+    position: relative;
+    border: 5px solid green;
+    border-radius: 0 0 50px 50px;
+    left: 50px;
+    width: max-content;
+    height: max-content;
+}
+.div3 img{
+    position: relative;
+    border: 5px solid white;
+     width: 200px;
+     height: 150px;
+     border-radius: 0 0 50px 50px;
+}
+.div h3{
+    position: relative;
+    left: 45px;  
+    bottom: 5px; 
+}
+.div3 p{
+    position: relative;
+    text-align: center;
+}
+.div3 button{
+    position: relative;
+    left: 65px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: green;
+    border: none;
+    outline: none;
+    color: white;
+}
+.div3 button:hover{
+    background-color: black;
+}
+
+/* div4 portion */
+.div4{
+    position: relative;
+    left: 50px;
+    width: max-content;
+    height: max-content;
+    border: 5px solid green;
+    border-radius: 0 0 50px 50px;
+}    
+.div4 img{
+    position: relative;
+     border: 5px solid white;
+     width: 200px;
+     height: 150px;
+     border-radius: 0 0 50px 50px;
+}
+.div4 h3{
+    position: relative;
+    left: 50px;
+    bottom: 5px;
+    
+}
+.div4 p{
+    position: relative;
+    text-align: center;
+}
+.div4 button{
+    position: relative;
+    left: 65px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: green;
+    border: none;
+    outline: none;
+    color: white;
+}
+.div4 button:hover{
+    background-color: black;
+}
+
+/* 2nd row of fruit */
+
+.dmeat{
+    position: relative;
+    width: 100%;
+    height: 330px;
+    color: black;
+}
+.dsubmeat{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: max-content;
+    height: max-content;
+    top: 50px;
+    grid-gap:80px;
+
+}
+/* div1 portin */
+.div1{position: relative;
+    left: 50px;
+    width: max-content;
+    height: max-content;
+    border: 5px solid green;
+    border-radius: 0 0 50px 50px;
+
+}
+.div1 img{position: relative;
+     border: 5px solid white;
+     width: 200px;
+     height: 150px;
+     border-radius: 0 0 50px 50px;
+}
+.div1 h3{
+    position: relative;
+    left: 55px;
+    bottom: 5px;
+}
+
+.div1 p{
+    position: relative;
+    text-align: center;
+}
+.div1 button{
+    position: relative;
+    left: 65px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: green;
+    border: none;
+    outline: none;
+    color: white;
+}
+.div1 button:hover{
+    background-color: black;
+}
+/* div2 portion */
+.di2{position: relative;
+    border: 5px solid green;
+    border-radius: 0 0 50px 50px;
+    left: 50px;
+    width: max-content;
+    height: max-content;
+
+}
+.div2 img{
+    position: relative;
+     width: 200px;
+     height: 150px;
+     border: 5px solid white;
+     border-radius: 0 0 50px 50px;
+     font-size: 10px;
+}
+.div2 h3{
+    position: relative;
+    left: 10px;
+    bottom: 5px;
+    
+}
+.div2 p{
+    position: relative;
+    text-align: center;
+}
+.div2 button{
+    position: relative;
+    left: 65px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: green;
+    border: none;
+    outline: none;
+    color: white;
+}
+.div2 button:hover{
+    background-color: black;
+}
+
+.div3{
+    position: relative;
+    border: 5px solid green;
+    border-radius: 0 0 50px 50px;
+    left: 50px;
+    width: max-content;
+    height: max-content;
+}
+.div3 img{
+    position: relative;
+    border: 5px solid white;
+     width: 200px;
+     height: 150px;
+     border-radius: 0 0 50px 50px;
+}
+.div h3{
+    position: relative;
+    left: 45px;  
+    bottom: 5px; 
+}
+.div3 p{
+    position: relative;
+    text-align: center;
+}
+.div3 button{
+    position: relative;
+    left: 65px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: green;
+    border: none;
+    outline: none;
+    color: white;
+}
+.div3 button:hover{
+    background-color: black;
+}
+
+/* div4 portion */
+.div4{
+    position: relative;
+    left: 50px;
+    width: max-content;
+    height: max-content;
+    border: 5px solid green;
+    border-radius: 0 0 50px 50px;
+}    
+.div4 img{
+    position: relative;
+     border: 5px solid white;
+     width: 200px;
+     height: 150px;
+     border-radius: 0 0 50px 50px;
+}
+.div4 h3{
+    position: relative;
+    left: 50px;
+    bottom: 5px;
+    
+}
+.div4 p{
+    position: relative;
+    text-align: center;
+}
+.div4 button{
+    position: relative;
+    left: 65px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: green;
+    border: none;
+    outline: none;
+    color: white;
+}
+.div4 button:hover{
+    background-color: black;
+}
+      /* footer portion */
+
+.footer{  
+        width: 100%;;
+        background-image: url(last1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        height: max-content;
+}
+.subfooter{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: max-content;
+    grid-gap:50px;
+    padding: 50px;
+    background-color:rgba(0,0,0,0.5);
+    text-align: center;
+
+}
+.subfooter p:hover{
+    color:cyan;
+}
+
+.subfooter p {
+    position: relative;
+    font-size: 20px;
+}
+.subfooter h3{
+    position: relative;
+    font-size: 25px;
+}
+.footer1 h3{
+    position: relative;
+    font-size: 25x;
+}
+
+.footer1{
+    position: relative;
+    right:30px;
+}
+
+.footer2{
+    position: relative;
+    right:40px;
+}
+
+.footer3{
+    position: relative;
+    right:60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
